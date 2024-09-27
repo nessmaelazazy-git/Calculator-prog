@@ -1,0 +1,118 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding:0;
+}
+body{
+    align-items: center;
+    background: linear-gradient(320deg, #1c1c1c, #4e4e4e);
+    display: flex;
+    font-family:'Dosis',sans-serif;
+    
+    height: 100%;
+    justify-content: center;
+}
+.appear{
+    backdrop-filter: blur(5,5px); -webkit-backdrop-filter: blur(5,5px);
+    border-radius:16px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+    color:rgb(30, 29, 29);
+    background: (255,255,255,0.3);
+    border:1px,solid,rgba
+    (255,255,255,0.34);
+    flex-basis:400px;
+    height:540px;
+    padding:20px 35px;
+}
+.screen{
+    backdrop-filter: blur(5,5px); -webkit-backdrop-filter: blur(5,5px);
+    background-color: rgb(228, 225, 225);
+    border:(1px,solid,rgba(255,255,255,0.01)); 
+    border-radius:16px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+    color:rgb(30, 29, 29);
+    font-size:35px;
+    overflow:auto;
+    padding:20px;
+    text-align:right;
+    width:326px;
+}
+.cal_button_row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+.cal_button{
+    backdrop-filter: blur(5,5px);  -webkit-backdrop-filter: blur(5,5px);
+    background-color:rgb(225, 225, 225,0.75);
+    border:
+    (1px,solid,rgba(255,255,255,0.01)); 
+    border-radius:16px;
+    box-shadow:0 4px 30px rgba(35,35,35,0.1);
+    color:rgb(30, 29, 29); 
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+.cal_button:last-child{
+    color:#232323;
+    background:rgb(23, 179, 203);
+}
+.cal_button:last-child:hover{
+    background-color:white;
+    color:inherit
+}
+.cal_button:last-child:active{
+    background-color: rgba(238, 237, 239, 0.692);
+}
+
+.cal_button:hover{
+    background-color: rgba(238, 237, 239, 0.692);;
+}
+.cal_button:active{
+    background-color: rgb(23, 179, 203);
+} 
+.cal_button_double{
+    flex-basis:47%;
+    backdrop-filter: blur(5,5px);-webkit-backdrop-filter: blur(5,5px);
+    background-color: rgb(225, 225, 225,0.75);
+    border:(1px solid rgba(255,255,255,0.01)); 
+    border-radius:16px;box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color:#232323;
+    background:rgb(25, 204, 207);
+    font-size:28px;
+}
+.cal_button_traple{
+    flex-basis:73%;
+    backdrop-filter: blur(5,5px);-webkit-backdrop-filter: blur(5,5px);
+    background-color: rgb(225, 225, 225,0.75);
+    border:(1px solid 
+    rgba(255,255,255,0.01)); 
+    border-radius:16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color:#232323;
+    background:rgb(23, 179, 203);
+    font-size:30px;
+}
+.cal_button_traple:hover{
+    background-color:
+    rgb(237, 225, 225);
+    color:inherit
+}
+.cal_button_double:hover{
+    background-color:#fdf7f7;
+    color:inherit
+}
+.cal_button_double:active{
+    background-color:rgba(23, 179, 203);
+}
+.cal_button_traple:active{
+    background-color: rgba(23, 179, 203);  
+}
